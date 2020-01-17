@@ -238,10 +238,18 @@ a{
          font-weight: normal;
   
      }
-     .section .infooter .icons i{
-      color: black;
-      font-size: 30px;
-     }
+     .section .infooter .icons #facebook{
+        color: blue;
+        font-size: 30px;
+    }
+    .section .infooter .icons #instagram{
+        color: #FD1D1D ;
+        font-size: 30px;
+    }
+    .section .infooter .icons #twitter{
+        color: #0099FF;
+        font-size: 30px;
+    }
      
      .footer .S1{
       float: left;
