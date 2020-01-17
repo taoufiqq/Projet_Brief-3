@@ -96,12 +96,12 @@ visibility:hidden;
      #menu{
         float: left;
         left: 0;
-        text-align: center;
+ 
         width: 100%;
         margin-top: 60px;
         background-color: #357AB4;
         padding: 0px;
-        height: 72%;
+        height: 70%;
     }
     #menu li{
         display: block;
