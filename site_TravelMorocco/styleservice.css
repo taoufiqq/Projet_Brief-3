@@ -1,25 +1,32 @@
-*{
-	padding: 0;
-	margin: 0;
-/*  overflow-x: hidden;*/
-}
-
 /*------------start header style--------------------*/
 
 .header{
-    background-image: url(images/6.jpg);
+    background-image: url('2silder.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.phone {
+    width: 30px;
+    height: 30px;
+    
 }
 
-#tel {
+.email {
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+#p1 {
     position: absolute;
     left: 280px;
     top: 25px;
     color: white;
 }
-#email {
+#p2 {
     position: absolute;
     left: 465px;
     top: 25px;
@@ -62,15 +69,9 @@ display: none;
 visibility:hidden;
 
 }
-/*--------------start responsive menu,header----------------*/
-@media (max-width: 1470){
 
-     #menu li a{
-         margin-left:  30px;
-        font-size: 20px !important;
-        
-    }
-}
+/*--------------start responsive menu,header----------------*/
+
 @media (max-width: 1100px) 
 {
     .navicon{
@@ -101,7 +102,7 @@ visibility:hidden;
         margin-top: 60px;
         background-color: #357AB4;
         padding: 0px;
-        height: 72%;
+        height: 70%;
     }
     #menu li{
         display: block;
@@ -117,7 +118,7 @@ visibility:hidden;
         font-family: Segoe UI;
         font-weight: normal;
     }
-    #tel, #email {
+    #p1, #p2 {
         display: none;
     }
     #checkmenu:checked ~ .header_menu{
@@ -126,188 +127,49 @@ visibility:hidden;
     #menu li:hover {
     	background-color:#7BA0F3;
     }
+
+  
 }
 /*----------------End style header-------------------------*/
+/*----------------start container--------------------*/
 
 
-
-
-
-
-
-
-
-/*--------------start style  container page----------------*/
-.c h2{
-  display: flex;
-  justify-content: center;
-  margin-top: 3%;
-  font-size: 70px;
-    font-family: Segoe UI;
-    font-weight: normal;
-    color: #2D51A3;
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+/*    margin-top: 10%;*/
 }
-h2:hover {
-     color: #7BA0F3;
-}
-/*--------------start style  section ----------------*/
-#container .section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-#container .section .h{
-    font-size: 54px;
-    font-family: Segoe UI;
-    font-weight: normal;
-    margin-top: 2%;
-}
-#container .section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-#container .section img{
-    margin-top: 2%;
-}
-#container .section p{
-    text-align: justify;
-    padding-left: 16%;
-    margin-right:16%;
-    margin-top: 2%;
-    font-size: 32px;
-    font-family: Segoe UI;
-    font-weight: normal;
-}
-.btn{
-
-    font-family: Segoe UI;
-    height: 54px;
-    width: 220px;
-    border-radius: 10px;
-    background-color: #2D51A3;
-    color: white;
-    border: 2px;
-    font-size: 20px;
-    margin-top: 2%;
-    border-bottom:2px solid #2D51A3;
-    text-align: center;
-    line-height: 53px;
-    
-}
-.btn:hover{
-  background-color: white;
-  color: black;
-  border:2px solid black;
-}
-.i{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-right: 50%;
-  width: 26%;
-}
-.i i{
-    font-size: 190%;
-    margin-left: 16%;
-}
- .i i:hover{
-    color: #0099FF;
-}
-#heart:hover{
-    color: red;
-}
-@media (max-width: 1320px){
-    img{
-        width:1100px;
-        height: 540px; 
-    }
-    .h{
-       font-size: 40px !important;
-    }
-    .parag{
-        font-size: 28px !important;
-    }
-    .btn{
-         height: 50px;
-         width: 200px;
-         font-size: 17px;
-    }
-}
-@media (max-width: 1120px){
-    img{
-        width:880px;
-        height: 500px; 
-    }
-    .h{
-       font-size: 30px !important;
-    }
-     .parag{
-        font-size: 24px !important;
-    }
-    .btn{
-         height: 46px;
-         width: 150px;
-         font-size: 14px;
-    }
-    .i i{
-    
-        font-size: 100%;
-        margin-left: 10%; 
-    }
-    .i{
-        margin-right: 20%;
-    }
-}
-@media (max-width: 900px){
-    img{
-        width:680px;
-        height: 400px; 
-    }
-    .h{
-       font-size: 25px !important;
-    }
-     .parag{
-        font-size: 20px !important;
-    }
-    .btn{
-         height: 42px;
-         width: 130px;
-         font-size: 11px;
-    }
-}
-@media (max-width: 720px){
-    img{
-        width:480px;
-        height: 300px; 
-    }
-     .h{
-       font-size: 20px !important;
-    }
-     .parag{
-        font-size: 16px !important;
-    }
-    .btn{
-         height: 38px;
-         width: 106px;
-         font-size: 9px;
-         line-height: 40px;
-
-    }
+.container .div img{
+    width: 617px;
+    height: 300px;
 }
 
 
 
+.div{
+width: 33%;
+}
 
 
-
-
-
+@media (max-width:660px)
+{
+  .div{
+width: 100%;
+}
+    }
 /*------------start style footer--------------*/
+.pp {
+    position: absolute;
+    font-size: 71PX;
+    text-align: center;
+    display: flex;
+    margin-left: 850PX;
+}
+
+.pra {
+margin-top: 80px;
+}
 
 .section{
   background-color: #FAFAFA;
@@ -316,6 +178,7 @@ h2:hover {
 }
 .section .infooter{
   display: flex;
+  margin-top: 175px;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0% 10% 0% 10%;
@@ -327,9 +190,9 @@ h2:hover {
   align-items: center;
 }
 .section .infooter .d1,.d2,.d3{
-        margin-top: 7%;
-        margin-bottom: 7%;
-    }
+		margin-top: 7%;
+		margin-bottom: 7%;
+	}
 .section .infooter a{
   font-family: Open Sans;
   font-weight: normal;
@@ -343,15 +206,15 @@ h2:hover {
 
 }
 
-.section .infooter .p{
+.section .infooter .h{
   margin-left: 7%;
-  margin-top: 5%;
+  margin-top:85%;
    font-family: Open Sans;
    font-weight: normal;
    font-size: 20px;
    color: #04151F;
     width: 300px;
-    height: 54px;
+    height: 40px;
 
 }
 .section .infooter .QL{
@@ -411,24 +274,16 @@ text-align: center;
        display: flex;
        flex-wrap: wrap;
    }
+
+   
+
    .footer span{
        color:#CCCCCC; 
        font-family: Open Sans ;
        font-weight: normal;
 
    }
-  .section .infooter .icons #facebook{
-    color: blue;
-    font-size: 30px;
-   }
-   .section .infooter .icons #instagram{
-    color: #FD1D1D ;
-    font-size: 30px;
-   }
-   .section .infooter .icons #twitter{
-    color: #0099FF;
-    font-size: 30px;
-   }
+  
    
    .footer .S1{
     float: left;
@@ -437,5 +292,18 @@ text-align: center;
     font-family: Open Sans;
     font-weight: normal;
     color: #CCCCCC;
-        margin: auto;
+    margin: auto;
+}
+
+.section .infooter .icons #facebook{
+    color: blue;
+    font-size: 30px;
+}
+.section .infooter .icons #instagram{
+    color: #FD1D1D ;
+    font-size: 30px;
+}
+.section .infooter .icons #twitter{
+    color: #0099FF;
+    font-size: 30px;
 }
