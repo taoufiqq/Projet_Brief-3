@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://kit.fontawesome.com/c2035ffa68.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="StyleContact.css">
+</head>
+<body>
+	<!-- ---------------------start header ----------------------->
+	<header class="header">
+        <a href=""><img src="img/img.png" class="imag"></a>
+       <!-- <i class="fas fa-phone-alt" class="phone"></i> --><p id="p1">+212 5 77 88 99 08</p></label>
+      <!-- <i class="far fa-envelope" class="email"></i> --><p id="p2">info@TravelMorocco.com</p></label>
+
+
+        <input type="checkbox" id="checkmenu">
+        <label for="checkmenu" class="navmenu"> <span class="navicon"> </span> <span class="navicon"> </span><span class="navicon"> </span> </label>
+
+
+
+         <div class="header_menu">
+         <ul id="menu"> <!-- menu -->
+             <li><a href="#">HOME</a></li>
+             <li><a href="#">ABOUT US</a></li>
+             <li><a href="#">SERVICE</a></li>
+             <li><a href="#">PROMO</a></li>
+             <li><a href="pageBlog.html">BLOG</a></li>
+             <li><a href="#">GALLERY</a></li>
+             <li><a href="#">CITY GUIDE</a></li>
+             <li><a href="pageContact.html">CONTACT US</a></li>
+         </ul>
+        </div>
+        
+     </header>
+     <!-- --------------------End header------------------------ -->
+       <div class="c">
+       	<h2>Contact us</h2>
+       </div>
+
+
+    <div class="container">
+	  <div class="div"><i class="fas fa-mobile" id="f"></i><br><p class="a1">+212 5 77 88 99 08 <br><br> +212 5 77 88 99 07</p> </div>
+      <div class="div"><i class="fas fa-home"></i><p class="a2">Résidence Atlantid, Boulevard<br>Ibnabdellah, ville nouvelle, Safi,<br> Maroc</p></div>
+      <div class="div"><i class="far fa-comments"></i><p class="a3">info@TravelMorocco.com</p></div>
+</div>
+     <div class="m">
+  <div class="p">  Get in touch </div> <div class="pp"> If you have any questions, just fill in the contact form, and we will answer you shortly</div>
+</div>
+  <div id="Error"></div>
+<form >
+<div class="form">
+  <input type="text" name="Name" required="" placeholder="Your Name" class="inpt1" id="name">
+  <input type="email" name="Name" required="" placeholder="E-mail" class="inpt1" id="email">
+  <input type="tel" name="Name" required="" placeholder="Phone" class="inpt1" id="phone">
+  <textarea placeholder="Message" class="txtA" id="msg"></textarea>
+  <button class="btn" onclick="validate();">Send Message</button>
+</div>
+</form>
+ <!-- -----------------start footer ------------------------>
+<div class="section">
+	<div  class="infooter">
+		 <div class="d1">
+    	<a href=""><img src="img/img.png" class="img"></a>
+    	<p class="h">We are one of the leading tour agencies in Morocco.</p>
+    	<div class="icons">
+    		<i class="fab fa-facebook" id="facebook"></i>
+    		<i class="fab fa-instagram" id="instagram"></i>
+    		<i class="fab fa-twitter" id="twitter"></i>
+    	</div>
+    </div>
+	<div class="d2">
+		<h3>QUICK LINKS</h3>
+	 <div class="QL">
+	   <div class="ul1">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">SERVICE</a></li>
+			<li><a href="#">PROMO</a></li>
+		</ul>
+	   </div>
+	   <div class="ul2">
+		<ul>
+			<li><a href="pageBlog.html">BLOG</a></li>
+			<li><a href="#">GALLERY</a></li>
+			<li><a href="#">CITY GUIDE</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+	   </div>
+	 </div>
+		
+	</div>
+	<div class="d3">
+		<h3>CONTACT US</h3><br>
+		<p>Contact us via mobile or E-mail :</p><br>
+		<span class="s1">Mobile: +212 5 77 88 99 08</span>
+		<br><br>
+		<span class="s2"> E-mail: </span><span id="mail">info@TravelMorocco.com</span>
+	</div>
+	</div>
+   
+
+</div>
+<footer class="footer">
+<span class="S1"> &copy; Copyright 2019. All Right Reserved</span>
+
+ </footer>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	function validate(){
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+   var phone = document.getElementById("phone").value;
+  var message = document.getElementById("msg").value;
+  
+  
+  if(name.length < 5){
+    alert("Please Enter valid Name");
+    return false;
+  }
+  if(email.indexOf("@") == -1 || email.length < 6){
+    alert("Please Enter valid Email");
+    return false;
+  }
+  if(isNaN(phone) || phone.length != 10){
+    alert("Please Enter valid Phone Number");
+    return false;
+  }
+  if(message.length <= 50){
+    alert("Please Enter More Than 140 Characters");
+    return false;
+  }
+  alert("Name: " + name + "\nEmail :" + email + "\nPhone :" + phone + "\nMessage :" + message);
+  return true;
+}
+</script>
+
+</body>
+</html>
