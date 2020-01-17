@@ -1084,8 +1084,8 @@ table td, th {
 .sec6 .contenu form a{
     padding: 10px 12px;
     position: absolute;
-    left: 25em;
     top: 452em;
+    left: 16px;
    } 
 .sec6 .contenu form input[type="email"] {
       width: 100%;
@@ -1093,131 +1093,129 @@ table td, th {
       margin-top: 4em;
   }
 }
-/* section7 */
-.section7 {
-  background-color: #FAFAFA;
-
-}
-.section7 .infooter{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 1520px;
-}
-.section7 .infooter .d1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section7 .infooter .d1,.d2,.d3{
-    margin-top: 7%;
-    margin-bottom: 7%;
+/* Footer */
+.section{
+    background-color: #FAFAFA;
+    
+    width: 100%;
   }
-.section7 .infooter a{
-  font-family: Open Sans;
-  font-weight: normal;
- color: #AAA9A9;
- text-decoration: none;
-}
-.section7 .infooter .img{
-
-    width: 200px;
-    height: 100px;
-}
-
-.section7 .infooter .h{
-  margin-left: 7%;
-  margin-top: 5%;
-   font-family: Open Sans;
-   font-weight: normal;
-   font-size: 20px;
-   color: #04151F;
-    width: 300px;
-    height: 40px;
-
-}
-.section7 .infooter .QL{
-  width: 100%;
-  display: flex;
-  margin-top: 16%;
-
-}
-.section7 .infooter .ul2{
-margin-left: 1%;  
-
-}
-.section7 .infooter .ul1,.ul2{
-width: 146px;
-}
-.section7 .infooter li{
-list-style: none;
-line-height: 30px;
-text-align: center;  
-}
-.section7 .infooter h3{
-  margin-top: 2%;
-  color: #688095;
-  font-family: Open Sans ExtraBold;
-  font-weight: normal;
-  text-align: center;
-}
-.section7 .infooter p{
-  margin-top: 5%;
-   margin-bottom: 5%;
-  text-align: center;
-   font-family: Open Sans;
-   font-weight: normal;
-   font-size: 20px;
-   color:#AAA9A9 ;
-   margin-left: 32px;
-}
-.section7 .infooter .s1,.s2{
-    font-size:20px ;
-    font-family:Open Sans ExtraBold;
-    font-weight:normal; 
-    color: #2C4458;
-    margin-top: 2%;
-    margin-left: 47px;
-}
-.section7 .infooter #mail{
-    font-family:Open Sans ExtraBold;
-    font-weight:normal; 
-    color: #688095;
+  .section .infooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0% 10% 0% 10%;
   }
-  .footer{
-       background-color: #688095;
-       flex-basis: 100%;
-       height: 50px; 
-       display: flex;
-       flex-wrap: wrap;
-   }
-   .footer span{
-       color:#CCCCCC; 
-       font-family: Open Sans ;
-       font-weight: normal;
-       margin-top: 1%;
-
-   }
-.section7 .infooter .icons #facebook{
-       color: blue;
-       font-size: 30px;
-   }
-   .section7 .infooter .icons #instagram{
-       color: #FD1D1D ;
-       font-size: 30px;
-   }
-   .section7 .infooter .icons #twitter{
-       color: #0099FF;
-       font-size: 30px;
-   }
-   .footer .c1{
-    float: left;
-    padding-left: 105px;
-    margin-top: 15px;
+  .section .infooter .d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .infooter .d1,.d2,.d3{
+          margin-top: 7%;
+          margin-bottom: 7%;
+      }
+  .section .infooter a{
     font-family: Open Sans;
     font-weight: normal;
-    color: #CCCCCC;
-    margin: auto;
-}
- 
+   color: #AAA9A9;
+   text-decoration: none;
+  }
+  .section .infooter .img{
+      width: 200px;
+      height: 100px;
+  }
+  
+  .section .infooter .p{
+    margin-left: 7%;
+    margin-top: 5%;
+     font-family: Open Sans;
+     font-weight: normal;
+     font-size: 20px;
+     color: #04151F;
+      width: 300px;
+      height: 54px;
+  
+  }
+  .section .infooter .QL{
+    width: 100%;
+    display: flex;
+    margin-top: 16%;
+  
+  }
+  .section .infooter .ul2{
+  margin-left: 1%;  
+  
+  }
+  .section .infooter .ul1,.ul2{
+  width: 146px;
+
+  }
+  .section .infooter li{
+  list-style: none;
+  line-height: 30px;
+  text-align: center;  
+  }
+  .section .infooter h3{
+    margin-top: 2%;
+    color: #688095;
+    font-family: Open Sans ExtraBold;
+    font-weight: normal;
+    text-align: center;
+  }
+  .section .infooter p{
+    margin-top: 5%;
+     margin-bottom: 5%;
+    text-align: center;
+     font-family: Open Sans;
+     font-weight: normal;
+     font-size: 20px;
+     color:#AAA9A9 ;
+     margin-left: 32px;
+  }
+  .section .infooter .s1,.s2{
+      font-size:20px ;
+      font-family:Open Sans ExtraBold;
+      font-weight:normal; 
+      color: #2C4458;
+      margin-top: 2%;
+      margin-left: 47px;
+  }
+  .section .infooter #mail{
+      font-family:Open Sans ExtraBold;
+      font-weight:normal; 
+      color: #688095;
+    }
+    .footer{
+         background-color: #688095;
+         flex-basis: 100%;
+         height: 50px; 
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .footer span{
+         color:#CCCCCC; 
+         font-family: Open Sans ;
+         font-weight: normal;
+  
+     }
+ .section .infooter .icons #facebook{
+    color: blue;
+    font-size: 30px;
+   }
+   .section .infooter .icons #instagram{
+    color: #FD1D1D ;
+    font-size: 30px;
+   }
+   .section .infooter .icons #twitter{
+    color: #0099FF;
+    font-size: 30px;
+   }
+     .footer .S1{
+      float: left;
+      padding-left: 105px;
+      margin-top: 15px;
+      font-family: Open Sans;
+      font-weight: normal;
+      color: #CCCCCC;
+    }
