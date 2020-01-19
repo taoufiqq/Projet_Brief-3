@@ -4,13 +4,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     overflow-x: hidden;
+    width: 102%;
 }
 .header{
     background-image: url(images/A.jpg);
     flex-basis: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 600px;
+    height: 710px;
 }
 .header {
   overflow: hidden;
@@ -36,7 +37,7 @@ body{
     width: 110px;
     height: 50px;
     position: absolute;
-    left: 20px;
+    left: 30px;
     top: 8px;
 }
 .header ul {
@@ -155,6 +156,7 @@ display: none;
         font-size: 20px;
         font-family: Segoe UI;
         font-weight: normal;
+        margin-left: 20px;
     }
     #p1, #p2{
         display: none;
@@ -166,10 +168,10 @@ display: none;
 }
 /* section-1 */
 .section1{
-    width: 1125px;
+    width: 100%;
     height: 370px;
     margin-top: -145px;
-    margin-left: 480px;
+    margin-left: 780px;
     overflow: hidden;
 }
 .image {
@@ -187,15 +189,15 @@ display: none;
     font-weight: bold;
     font-size: 20px;
     position: absolute;
-    margin-top: -200px;
-    margin-left: -456px;
+    margin-top: -10em;
+    margin-left: -715px;
 } 
 .desert #p11 {
     font-family: Raleway;
     font-size: 15px;
     position: absolute;
-    margin-left: -455px;
-    margin-top: -145px;
+    margin-left: -715px;
+    margin-top: -10em;
 
   }
 @keyframes slider {
@@ -240,7 +242,7 @@ display: none;
     .image {
       display: flex;
       position: absolute;
-      top: 50em;
+      top: 58em;
       width: 170%;
       height: 45%;
     }
@@ -255,7 +257,7 @@ display: none;
     text-align: center;
     font-size: 20px;
     margin-top: 370px;
-    margin-left: -402px;
+    margin-left: -630px;
    
     }
     .desert #p11 {
@@ -265,6 +267,8 @@ display: none;
     text-align: center;
     font-weight: normal;
     margin-top: 405px;
+    position: absolute;
+    left: 795px;
     }
 
  }
@@ -281,12 +285,12 @@ display: none;
   margin-top: 50px;
 }
 .sec2 {
-    margin-left: 31.70%;
-    margin-top: -8%;
+    margin-left: 40.70%;
+    margin-top: -5%;
     background-color: #E2EAF0;
     height: 575px;
     flex-basis: 60%;
-    width: 980px;
+    width: 1100px;
 }
 .sec2 img {
   float: left;
@@ -300,33 +304,34 @@ display: none;
     font-size: 20px;
     position: relative;
     bottom: 485px;
-    margin-left: 906px;
+    margin-left: 1190px;
 }
  .par3 p {
     margin-top: -480px;
     font-family: Raleway;
-    margin-left: 910px;
+    position: relative;
+    left: 1%;
     font-size: 12px;
 }
 .grp1 .grp {
     width: 7.5%;
     height: 120px;
     position: relative;
-    left: 59.50%;
+    left: 62.50%;
     top: -228px;
 }
 .grp2 .grp {
     width: 7.5%;
     height: 120px;
     position: relative;
-    left: 68.50%;
+    left: 71.50%;
     top: -352px;
 }
 .grp3 .grp {
     width: 7.5%;
     height: 120px;
     position: relative;
-    left: 77.50%;
+    left: 80.50%;
     top: -477px;
     padding-left: 5px;
 }
@@ -334,7 +339,7 @@ display: none;
     width: 7.5%;
     height: 120px;
     position: relative;
-    left: 86.50%;
+    left: 89.50%;
     top: -602px;
     padding-left: 5px;
 }
@@ -343,23 +348,24 @@ display: none;
     background-image: none;
     flex-wrap: wrap;
     display: block;
-    margin-top: 390px;
+    margin-top: 480px;
+    margin-left: 65px
    }
    .sec2 {
     margin-top: 155px;
-    margin-left: 0px;
-    width: 100%;
+    margin-left: -45px;
+    width: 112%;
     height: 515px;
    }
    .sec2 img {
     display: flex;
     margin-top: 18px;
-    width: 55%;
+    width: 45%;
     height: 65%;
-    padding-left: 25px;
+    padding-left: 20px;
    }
    .par3 h1 {
-    margin-left: 130px;
+    margin-left: 150px;
     bottom: 760px;
     text-align: center;
     position: relative;
@@ -379,7 +385,7 @@ display: none;
     width: 30%;
     height: 130px;
     float: left;
-    margin-left: 35px;
+    margin-left: -5px;
     margin-top: -330px;
    }
    .grp2 .grp {
@@ -389,7 +395,7 @@ display: none;
     height: 130px;
     float: left;
     margin-top: 145px;
-    margin-left: -255px;
+    margin-left: -365px;
    }
    .grp3 .grp {
     display: block;
@@ -397,7 +403,7 @@ display: none;
     width: 30%;
     height: 130px;
     float: left;
-    margin-left: -57px;
+    margin-left: -111px;
     margin-top: 85px;
    }
    .grp4 .grp {
@@ -406,7 +412,7 @@ display: none;
     width: 30%;
     height: 130px;
     float: left;
-    margin-left: -194px;
+    margin-left: -222px;
     margin-top: 380px;
    }
 
@@ -418,11 +424,11 @@ display: none;
     display: flex;
     font-size: 20px;
     text-align: center;
-    margin-left: 602px;
+    margin-left: 40%;
 }
 .par4 p {
     font-family: Raleway;
-    margin-left: 500px;
+    margin-left: 35%;
     font-size: 12px;
     text-align: center;
     display: flex;
@@ -430,53 +436,55 @@ display: none;
 .groupe1 .grp11 {
     width: 18%;
     height: 175px;
-    padding-left: 80px;
+    padding-left: 110px;
     padding-top: 45px;
 }
 .A {
   display: inline-block;
   font-size: 15px;
-  margin-left: 76px;
-  padding-right: 102px;
+  margin-left: 110px;
+  padding-right: 170px;
 }
 .B {
     display: inline-block;
     font-size: 15px;
-    margin-right: 72px;
-    padding-left: 40px;
+    margin-right: 145px;
+    padding-left: 65px;
     padding-top: 16px;
 }
 @media (max-width: 700px) {
   .par4 h1 {
-    margin-left: 122px;
+       margin-left: 190px;
   }
   .par4 p {
-    margin-left: 0px;
+    margin-left: 60px;
     font-weight: lighter;
     flex-wrap: wrap;
+    font-size: 13px;
   }
   .groupe1 .grp11 {
     display: flex;
     flex-wrap: wrap;
     width: 75%;
-    margin-left: 18px;
+    height: 225px;
+    margin-left: 50px;
     border-radius: 61px;
     padding: 40px;
   } 
   .A {
     position: relative;
-    bottom: 808px;
-    margin-left: 124px;
+    bottom: 946px;
+    margin-left: 190px;
     text-align: center;
-    padding-bottom: 190px;
+    padding-bottom: 222px;
     font-size: 18px;
   }
   .B {
     position: relative;
-    bottom: 838px;
-    margin-left: 65px;
+    bottom: 945px;
+    margin-left: 119px;
     text-align: center;
-    padding-bottom: 175px;
+    padding-bottom: 210px;
     font-size: 18px;
   }
 
@@ -497,7 +505,7 @@ display: none;
   display: flex; 
   flex-basis: 40%; 
   background-color: rgba(0,0,0,0.5); 
-  width: 613px;
+  width: 740px;
 }
 
 .back {
@@ -505,8 +513,8 @@ display: none;
   display: flex; 
   flex-basis: 60%; 
   background-color: rgba(56,190,195,0.9); 
-  width: 907px;"
-}
+  width: 70%;
+ } 
 .groupe2 .p {
     font-family: Open sans;
     font-weight: bold;
@@ -520,14 +528,14 @@ display: none;
 }
 .section4 .back {
     margin-top: -1010px;
-    margin-left: 612px;
+    margin-left: 740px;
 }
 #pa1 {
     font-family: Simple Indust Shaded;
     display: flex;
     font-size: 20px;
     text-align: center;
-    margin-left: -380px;
+    margin-left: -355px;
     margin-top: 120px;
     color: white;
     font-weight: normal;
@@ -538,42 +546,42 @@ display: none;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: -535px 0px 0px 715px;
+    margin: -535px 0px 0px 855px;
 }
 #cercle2 {
     width: 80px;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: -83px 0px 0px 1060px;
+    margin: -83px 0px 0px 1240px;
 }
 #cercle3 {
     width: 80px;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: -80px 0px 0px 1400px;
+    margin: -80px 0px 0px 1645px;
 }
 #cercle4 {
     width: 80px;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: 400px 0px 0px 715px;
+    margin: 400px 0px 0px 858px;
 }
 #cercle5 {
     width: 80px;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: -82px 0px 0px 1060px;
+    margin: -82px 0px 0px 1235px;
 }
 #cercle6 {
     width: 80px;
     height: 80px;
     border-radius: 60px;
     border: 1px solid white;
-    margin: -80px 0px 0px 1400px;
+    margin: -80px 0px 0px 1640px;
 }
 table td, th {
   border: 0px solid white;
@@ -587,166 +595,170 @@ table td, th {
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2178px;
-    left: 741px;
+    top: 2278px;
+    left: 883px;
     font-weight: bold;
 } 
 #tab2{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2178px;
-    left: 1088px;
+    top: 2278px;
+    left: 1268px;
     font-weight: bold;
 } 
 #tab3{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2178px;
-    left: 1430px;
+      top: 2280px;
+    left: 1673px;
     font-weight: bold;
 } 
 #tab4{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2662px;
-    left: 741px;
+    top: 2765px;
+    left: 886px;
     font-weight: bold;
 } 
 #tab5{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2662px;
-    left: 1088px;
+    top: 2762px;
+    left: 1263px;
     font-weight: bold;
 } 
 #tab6{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 2662px;
-    left: 1430px;
+    top: 2765px;
+    left: 1668px;
     font-weight: bold;
 } 
 #td1 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -478px 0px 0px 666px;
-  position: absolute;
-  right: 660px;
+    margin: -478px 0px 0px 792px;
+    position: absolute;
+    right: 900px;
 }
 #td2 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -485px 0px 0px 1015px;
-  position: absolute;
-  right: 270px;
+    margin: -485px 0px 0px 0px;
+    position: absolute;
+    right: 450px;
 }
 #td3 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -487px 0px 0px 1330px;
+  margin: -487px 0px 0px 1590px;
 }
 #td4 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px 0px 695px;
+  margin: 5px 0px 0px 828px;
 }
 #td5 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -30px 0px 0px 1025px;
+  margin: -30px 0px 0px 1195px;
 }
 #td6 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -32px 0px 0px 1332px;
+  margin: -32px 0px 0px 1595px;
 }
 #td1 p {
   display: flex;
   flex-wrap: wrap;
-  margin: -385px 0px 0px 666px;
-  position: absolute;
-  right: 650px;
-  font-size: 18px;
-  font-weight: lighter;
+    margin: -385px 0px 0px 790px;
+    position: absolute;
+    right: 880px;
+    font-size: 22px;
+    font-weight: inherit;
 }
 #td2 p {
   display: flex;
   flex-wrap: wrap;
-  margin: -423px 0px 0px 1015px;
-  position: absolute;
-  right: 315px;
-  font-size: 18px;
-  font-weight: lighter;
+    margin: -428px 0px 0px 1200px;
+    position: absolute;
+    right: 490px;
+    font-size: 20px;
+    font-weight: inherit;
 }
 #td3 p {
   display: flex;
   flex-wrap: wrap;
-  margin:-450px 0px 0px 1330px;
-  position: absolute;
-  right: 4px;
-  font-size: 18px;
-  font-weight: lighter;
-}
+    margin: -425px 0px 0px 1595px;
+    position: absolute;
+    right: 95px;
+    font-size: 20px;
+    font-weight: inherit;
+}    
 #td4 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0px 0px 695px;
-  position: absolute;
-  right: 628px;
-  font-size: 18px;
-  font-weight: lighter;
+    margin: 60px 0px 0px 828px;
+    position: absolute;
+    right: 848px;
+    font-size: 20px;
+    font-weight: inherit;
 }
 #td5 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px 0px 1025px;
-  position: absolute;
-  right: 289px;
-  font-size: 18px;
-  font-weight: lighter;
+      margin: 26px 0px 0px 1200px;
+    position: absolute;
+    right: 475px;
+    font-size: 20px;
+    font-weight: inherit;
 }
 #td6 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px 0px 1332px;
+    margin: 25px 0px 0px 1598px;
+    font-size: 20px;
+    font-weight: inherit;
+    right: 98px;
+    position: absolute;
 }
 @media (max-width: 700px) {
   .section4 {
     background-image: none;
   }
 .back {
-   height: 54%; 
+   height: 56%; 
   display: flex; 
   flex-basis: 60%; 
   background-color: rgba(56,190,195,0.9); 
-    width: 27%;
+    width: 100%;
     position: relative;
-    right: 612px;
-    bottom: 731px;
+    right: 735px;
+    bottom: 913px;
     opacity: 80%;
 }  
 .gr {
     display: block;
     flex-wrap: wrap;
     background-color: #616161;
-    width: 100%;
+    width: 105%;
     height: 325px;
     position: absolute;
-    top: 3125px;
+    top: 3485px;
  }
 .gr1 {
     background-image: url(images/window.jpg);
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    left: -17PX;
-    bottom: 956px;
-    width: 500px;
+    left: 12px;
+    bottom: 1124px;
+    width: 626px;
     height: 1020px;
 
 } 
@@ -759,8 +771,8 @@ table td, th {
     text-align: center;
     color: white;
     position: absolute;
-    left: -78px;
-    top: 3880px;
+    left: -20px;
+    top: 4222px;
 }
 #pa1 {
   display: block;
@@ -775,37 +787,37 @@ table td, th {
 #tab1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1292px 0px 0px -709px;
+  margin: 1510px 0px 0px -829px;
   font-size: 15px;
 }
 #tab2 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1383px 0px 0px -1057px;
+  margin: 1600px 0px 0px -1215px;
   font-size: 15px;
 }
 #tab3 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1472px 0px 0px -1399px;
+  margin: 1691px 0px 0px -1619px;
   font-size: 15px;
 }
 #tab4 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1076px 0px 0px -709px;
+  margin: 1304px 0px 0px -832px;
   font-size: 15px;
 }
 #tab5 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1160px 0px 0px -1055px;
+  margin: 1407px 0px 0px -1208px;
   font-size: 15px;
 }
 #tab6 {
   display: flex;
   flex-wrap: wrap;
-  margin: 1243px 0px 0px -1397px;
+  margin: 1496px 0px 0px -1610px;
   font-size: 15px;
 }
 #cercle1 {
@@ -814,8 +826,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 694px;
-    top: -725px;
+    right: 812px;
+    top: -939px;
 }
 #cercle2 {
     width: 30px;
@@ -823,8 +835,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 1039px;
-    top: -584px;
+    right: 1198px;
+    top: -796px;
 }
 #cercle3 {
     width: 30px;
@@ -832,8 +844,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 1380px;
-    top: -446px;
+    right: 1602px;
+    top: -655px;
 }
 #cercle4 {
     width: 30px;
@@ -841,8 +853,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 694px;
-    top: -791px;  
+    right: 814px;
+    top: -990px; 
 }
 #cercle5 {
     width: 30px;
@@ -850,8 +862,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 1038px;
-    top: -657px;
+    right: 1190px;
+    top: -840px;
 }
 #cercle6 {
     width: 30px;
@@ -859,8 +871,8 @@ table td, th {
     border-radius: 60px;
     border: 1px solid white;
     position: relative;
-    right: 1378px;
-    top: -525px;
+    right: 1593px;
+    top: -700px;
 }
 #td1 h3 {
   display: flex;
@@ -868,7 +880,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -485px;
+  top: -70em;
+  left: -758px;
 }
 #td2 h3 {
   display: flex;
@@ -876,8 +889,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -392px;
-  right: 1008px;
+  top: -604px;
+  left: 37px;
 }
 #td3 h3 {
   display: flex;
@@ -885,8 +898,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -304px;
-  right: 1322px;
+  top: -516px;
+  right: 1553px;
 }
 #td4 h3 {
   display: flex;
@@ -894,8 +907,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -714px;
-  right: 688px;
+  top: -912px;
+    right: 786px;
 }
 #td5 h3 {
   display: flex;
@@ -903,8 +916,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -692px;
-  right: 1018px;
+  top: -898px;
+  right: 1150px;
 
 }
 #td6 h3 {
@@ -913,26 +926,26 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -645px;
-  right: 1325px;
+  top: -868px;
+    right: 1548px;
 }
 #td1 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 1005px;
-  position: relative;
-  left: -659px;
-  top: -562px;
+  margin: -1158px 0px 0px 0px;
+  position: absolute;
+  left: 39px;
   font-size: 12px;
   font-weight: lighter;
+  width: 500px;
 }
 #td2 p {
   display: flex;
   flex-wrap: wrap;
   margin-right: 630px;
   position: relative;
-  left: -1008px;
-  top: -438px;
+  left: -1162px;
+    top: -643px;
   font-size: 12px;
   font-weight: lighter;
 }
@@ -941,8 +954,8 @@ table td, th {
   flex-wrap: wrap;
   margin-right: 345px;
   position: relative;
-  left: -1320px;
-  top: -325px;
+  left: -1557px;
+    top: -555px;
   font-size: 12px;
   font-weight: lighter;
 }
@@ -951,8 +964,8 @@ table td, th {
   flex-wrap: wrap;
   margin-right: 970px;
   position: relative;
-  left: -688px;
-  top: -754px;
+ left: -787px;
+    top: -962px;
   font-size: 12px;
   font-weight: lighter;
 }
@@ -961,27 +974,27 @@ table td, th {
   flex-wrap: wrap;
   margin-right: 658px;
   position: relative;
-  left: -1018px;
-  top: -712px;
+      left: -1157px;
+    top: -937px;
   font-size: 12px;
   font-weight: lighter;
 }
 #td6 p {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 410px;
-  position: relative;
-  left: -1325px;
-  top: -668px;
-  font-size: 12px;
-  font-weight: lighter;
-  width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 410px;
+    position: relative;
+    left: -1551px;
+    top: -907px;
+    font-size: 11px;
+    font-weight: 500;
+    width: 380px;
 }
 } 
 /* section5 */
  .sect5 h4{
         font-family: Open sans;
-        margin-left: 640px;
+        margin-left: 825px;
         font-size: 20px;
    }
 
@@ -990,22 +1003,32 @@ table td, th {
     display: block;
     width: 100%;
     height: 100%;
-    margin-left: 150px;
+    margin-left: 305px;
+}
+.iframe4 {
+    position: relative;
+    top: 205px;
+    right: 404px;
 }
 @media (max-width: 700px) {
   .sect5 {
-    margin-top: -1210px;
+    margin-top: -1295px;
   }
   .sect5 h4 {
-    margin-left: 155px;
+    margin-left: 230px;
   }
   .iframe {
     position: relative;
     display: block;
     width: 50%;
     height: 50%;
-    margin-left: 45px; 
+    margin-left: 120px; 
   }
+  .iframe4 {
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
 }
 /* section 6 */
 .sec6{
@@ -1018,7 +1041,7 @@ table td, th {
     align-items: center;
 }
 .sec6 .contenu{
-    width: 68%;
+    width: 54%;
     margin: auto;
 }
 .sec6 .contenu h2{
@@ -1061,7 +1084,7 @@ table td, th {
 @media (max-width: 700px) {
   .sec6 .contenu{
     width: 68%;
-    margin-left: -80%;
+    margin-left: -58%;
 }
 .sec6 .contenu h2{
     color: white;
@@ -1084,11 +1107,11 @@ table td, th {
 .sec6 .contenu form a{
     padding: 10px 12px;
     position: absolute;
-    top: 452em;
-    left: 16px;
+    top: 488em;
+    left: 425px;
    } 
 .sec6 .contenu form input[type="email"] {
-      width: 100%;
+      width: 130%;
       margin-left: 30em;
       margin-top: 4em;
   }

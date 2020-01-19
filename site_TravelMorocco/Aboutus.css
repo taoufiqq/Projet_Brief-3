@@ -181,13 +181,14 @@ display: none;
 }
 .count2 {
   margin-top: -25.5em;
+  margin-left: 100px;
 }
 .gr {
   height: 1010px; 
   display: flex; 
   flex-basis: 40%; 
   background-color: rgba(0,0,0,0.5); 
-  width: 613px;
+  width: 675px;
 }
 
 .back {
@@ -195,7 +196,7 @@ display: none;
   display: flex; 
   flex-basis: 60%; 
   background-color: rgba(56,190,195,0.9); 
-  width: 907px;"
+  width: 1240px;"
 }
 #t2 {
     font-family: Open sans;
@@ -210,7 +211,7 @@ display: none;
 }
 .section2 .back {
     margin-top: -63.2em;
-    margin-left: 612px;
+    margin-left: 675px;
 }
 #pa1 {
     font-family: Simple Indust Shaded;
@@ -277,68 +278,68 @@ table td, th {
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 200%;
-    left: 741px;
+    top: 156%;
+    left: 842px;
     font-weight: bold;
 } 
 #tab2{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 200%;
-    left: 1088px;
+    top: 156%;
+    left: 1189px;
     font-weight: bold;
 } 
 #tab3{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 200%;
-    left: 1430px;
+    top: 156%;
+    left: 1527px;
     font-weight: bold;
 } 
 #tab4{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 264%;
-    left: 741px;
+    top: 206%;
+    left: 843px;
     font-weight: bold;
 } 
 #tab5{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 264%;
-    left: 1088px;
+    top: 206%;
+    left: 1189px;
     font-weight: bold;
 } 
 #tab6{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    top: 264%;
-    left: 1430px;
+    top: 206%;
+    left: 1527px;
     font-weight: bold;
 } 
 #td1 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -478px 0px 0px 666px;
-  position: absolute;
-  right: 660px;
+      margin: -482px 0px 0px 770px;
+    position: absolute;
+    right: 935px;
 }
 #td2 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -485px 0px 0px 1015px;
-  position: absolute;
-  right: 270px;
+      margin: -485px 0px 0px 1100px;
+    position: absolute;
+    right: 550px;
 }
 #td3 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -487px 0px 0px 1330px;
+ margin: -485px 0px 0px 1355px;
 }
 #td4 h3 {
   display: flex;
@@ -353,58 +354,60 @@ table td, th {
 #td6 h3 {
   display: flex;
   flex-wrap: wrap;
-  margin: -32px 0px 0px 1332px;
+  margin: -32px 0px 0px 1360px;
 }
 #td1 p {
   display: flex;
   flex-wrap: wrap;
-  margin: -385px 0px 0px 666px;
-  position: absolute;
-  right: 650px;
+  margin: -375px 0px 0px 770px;
+    position: absolute;
+    right: 930px;
   font-size: 18px;
   font-weight: lighter;
 }
 #td2 p {
   display: flex;
   flex-wrap: wrap;
-  margin: -423px 0px 0px 1015px;
-  position: absolute;
-  right: 315px;
+  margin: -405px 0px 0px 1100px;
+    position: absolute;
+    right: 618px;
   font-size: 18px;
   font-weight: lighter;
 }
 #td3 p {
   display: flex;
   flex-wrap: wrap;
-  margin:-450px 0px 0px 1330px;
-  position: absolute;
-  right: 4px;
+     margin: -430px 0px 0px 1460px;
+    position: absolute;
+    right: 265px;
   font-size: 18px;
   font-weight: lighter;
 }
 #td4 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0px 0px 695px;
-  position: absolute;
-  right: 628px;
+      margin: 50px 0px 0px 795px;
+    position: absolute;
+    right: 895px;
   font-size: 18px;
   font-weight: lighter;
 }
 #td5 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px 0px 1025px;
-  position: absolute;
-  right: 289px;
+ margin: 8px 0px 0px 1130px;
+    position: absolute;
+    right: 570px;
   font-size: 18px;
   font-weight: lighter;
 }
 #td6 p {
   display: flex;
   flex-wrap: wrap;
-  margin: 5px 0px 0px 1332px;
+      margin: 5px 0px 0px 1360px;
+    margin-right: 276px;
 }
+
 @media (max-width: 700px) {
   .section2 {
     background-image: none;
@@ -415,7 +418,7 @@ table td, th {
   background-color: rgba(56,190,195,0.9); 
     width: 100%;
     position: relative;
-    right: 612px;
+    right: 680px;
     bottom: 728px;
     opacity: 80%;
 }  
@@ -424,6 +427,7 @@ table td, th {
 }
 .count2 {
     margin-top: 0em;
+    margin-left: 26px;
 }
 
 .gr {
@@ -433,7 +437,7 @@ table td, th {
     width: 100%;
     height: 280px;
     position: absolute;
-    top: 83em;
+    top: 82em;
  }
 .gr1 {
     background-image: url(images/window.jpg);
@@ -442,7 +446,7 @@ table td, th {
     position: relative;
     left: -17px;
     bottom: 956px;
-    width: 500px;
+    width: 626px;
     height: 1020px;
 
 } 
@@ -455,8 +459,8 @@ table td, th {
     text-align: center;
     color: white;
     position: absolute;
-    left: -5px;
-    top: 110em;
+    left: 45px;
+    top: 109em;
 }
 #pa1 {
   display: block;
@@ -464,45 +468,45 @@ table td, th {
   text-align: center;
     position: absolute;
     color: white;
-    left: -28px;
-    top: 81em;
+    left: 25px;
+    top: 79em;
     font-size: 16px;
 }
 
 #tab1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 212px 0px 0px -709px;
+  margin: 192px 0px 0px -784px;
   font-size: 15px;
 }
 #tab2 {
   display: flex;
   flex-wrap: wrap;
-  margin: 302px 0px 0px -1057px;
+  margin: 281px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab3 {
   display: flex;
   flex-wrap: wrap;
-  margin: 392px 0px 0px -1399px;
+  margin: 372px 0px 0px -1468px;
   font-size: 15px;
 }
 #tab4 {
   display: flex;
   flex-wrap: wrap;
-  margin: 28px 0px 0px -709px;
+  margin: 9px 0px 0px -785px;
   font-size: 15px;
 }
 #tab5 {
   display: flex;
   flex-wrap: wrap;
-  margin: 112px 0px 0px -1055px;
+  margin: 94px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab6 {
   display: flex;
   flex-wrap: wrap;
-  margin: 196px 0px 0px -1397px;
+  margin: 177px 0px 0px -1467px;
   font-size: 15px;
 }
 #cercle1 {
@@ -565,7 +569,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -485px;
+  top: -482px;
+  margin-left: 938px;
 }
 #td2 h3 {
   display: flex;
@@ -573,8 +578,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -392px;
-  right: 1008px;
+    top: -392px;
+    right: 1095px;
 }
 #td3 h3 {
   display: flex;
@@ -583,7 +588,7 @@ table td, th {
   text-align: left;
   font-size: 10px;
   top: -304px;
-  right: 1322px;
+  right: 1350px;
 }
 #td4 h3 {
   display: flex;
@@ -592,7 +597,7 @@ table td, th {
   text-align: left;
   font-size: 10px;
   top: -714px;
-  right: 688px;
+    right: 688px;
 }
 #td5 h3 {
   display: flex;
@@ -600,8 +605,8 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -692px;
-  right: 1018px;
+  top: -704px;
+    right: 1018px;
 
 }
 #td6 h3 {
@@ -610,69 +615,69 @@ table td, th {
   position: relative;
   text-align: left;
   font-size: 10px;
-  top: -645px;
-  right: 1325px;
+      top: -664px;
+    right: 1347px;
 }
 #td1 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 1005px;
-  position: relative;
-  left: -659px;
-  top: -562px;
-  font-size: 12px;
-  font-weight: lighter;
+    margin-right: 1005px;
+    position: relative;
+    left: -765px;
+    top: -570px;
+    font-size: 12px;
+    font-weight: lighter;
 }
 #td2 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 630px;
-  position: relative;
-  left: -1008px;
-  top: -438px;
-  font-size: 12px;
-  font-weight: lighter;
+  margin-right: 578px;
+    position: relative;
+    left: -1098px;
+    top: -453px;
+    font-size: 12px;
+    font-weight: lighter;
 }
 #td3 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 345px;
-  position: relative;
-  left: -1320px;
-  top: -325px;
-  font-size: 12px;
-  font-weight: lighter;
+    margin-right: 287px;
+    position: relative;
+    left: -1456px;
+    top: -343px;
+    font-size: 12px;
+    font-weight: lighter;
 }
 #td4 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 970px;
-  position: relative;
-  left: -688px;
-  top: -754px;
-  font-size: 12px;
-  font-weight: lighter;
+      margin-right: 895px;
+    position: relative;
+    left: -790px;
+    top: -763px;
+    font-size: 12px;
+    font-weight: lighter;
 }
 #td5 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 658px;
-  position: relative;
-  left: -1018px;
-  top: -712px;
-  font-size: 12px;
-  font-weight: lighter;
+  margin-right: 613px;
+    position: relative;
+    left: -1124px;
+    top: -727px;
+    font-size: 12px;
+    font-weight: lighter;
 }
 #td6 p {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 410px;
-  position: relative;
-  left: -1325px;
-  top: -668px;
-  font-size: 12px;
-  font-weight: lighter;
-  width: 380px;
+     margin-right: 410px;
+    position: relative;
+    left: -1350px;
+    top: -681px;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 380px;
 }
 } 
 /* footer */
