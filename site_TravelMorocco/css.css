@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    
 }
                          /* header */
 .header{
@@ -48,6 +49,7 @@ body{
     position: absolute;
     left: 655px;
     top: 25px; 
+ ;
 }
 .header ul li{
     display: inline;

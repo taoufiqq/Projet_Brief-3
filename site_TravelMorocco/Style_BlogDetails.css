@@ -36,7 +36,7 @@
 .header ul {
     float: right;
     position: absolute;
-    left: 695px;
+    left: 655px;
     top: 25px; 
 }
 .header ul li{
@@ -96,7 +96,6 @@ visibility:hidden;
      #menu{
         float: left;
         left: 0;
- 
         width: 100%;
         margin-top: 60px;
         background-color: #357AB4;

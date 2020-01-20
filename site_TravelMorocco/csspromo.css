@@ -1,4 +1,8 @@
-
+body{
+  margin: 0;
+  padding: 0;
+ overflow-x: hidden;
+}
 *{
 
   box-sizing: border-box;
@@ -6,15 +10,10 @@
   margin: 0;
 }
   /* header */
-body{
-  margin: 0;
-  padding: 0;
- overflow-x: hidden;
-}
  
 .header{
 background-position: center;
-  background-image: url(images/header.jpg);
+  background-image: url(images/headerimg.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +54,8 @@ color: white;
   float: right;
   position: absolute;
   left: 655px;
-  top: 25px; 
+  top: 25px;
+
 }
 .header ul li{
   display: inline;

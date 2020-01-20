@@ -228,6 +228,7 @@ visibility:hidden;
      margin: 10px;
      background-color: #FFFCFC;
      border-radius: 5px;
+     padding-left: 10px;
 }
  .txtA{
      border: 0.5px solid black;
@@ -236,6 +237,7 @@ visibility:hidden;
      margin: 29px;
      background-color: #FFFCFC;
      border-radius: 10px;
+     padding-left: 10px;
 }
 .btn{
 
