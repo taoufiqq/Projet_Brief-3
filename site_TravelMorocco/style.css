@@ -88,7 +88,8 @@ display: none;
 
 }
 @media (max-width: 700px) 
-{    .navicon{
+{
+    .navicon{
         top: 30px;
         width: 30px;
         height: 3px;
@@ -104,70 +105,59 @@ display: none;
         cursor: pointer;
         top: 20px;
     }
-    .header_menu{
-        display: none;
-
-    }
-     #menu{
-        float: left;
-        left: 0;
-        
+    .navicon::before{
+        position: relative;
         width: 100%;
-        margin-top: 60px;
-        background-color: #357AB4;
-        padding: 0px;
-        height: 560px;
+        height: 100%;
+        top: 7px;
+        background-color: #fff;
     }
-    #menu li{
-        display: block;
-        border: 1px solid #0D518C;
-        background-color: #0D518C;
-        margin: 5px;
-        width: 97%;
-        height: 60px;
-    }
-    #menu li a{
-        font-size: 25px;
-        font-family: Segoe UI;
-        font-weight: normal;
-    }
-    #menu li:hover {
-        background-color:#7BA0F3;
-    }
-
-    #p1, #p2{
+   .header_menu{
         display: none;
     }
-    #checkmenu:checked ~ .header_menu{
-        display: block;
-
-    }
-    .home-heading {
-      z-index: -1;
-    }
-    
    .para {
-    position: absolute;
     display: block;
     flex-wrap: wrap;
     font-size: 30px;
     text-align: center;
-    left: 53px;
+    margin-right: 50px;
     margin-top: 225px;
     font-weight: bold;
-    
    } 
    .para2 {
-    position: absolute;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 392px;
-    margin-left: 12px;
+    margin-top: 30px;
+    margin-left: 0px;
     font-weight: bold;
    }
    .explore {
     display: none;
-  }
+   }
+   #menu li{
+        display: block;
+        margin-top: 10px;
+        border: 1px solid #0D518C;
+        background-color: #0D518C;
+        margin: 5px;
+        text-align: left;
+        width: 97%;
+    }
+    #menu{
+        float: left;
+        left: 0;
+     
+        width: 100%;
+        margin-top: 60px;
+        background-color: #357AB4;
+        padding: 0px;
+    }
+    #menu li a{
+        font-size: 20px;
+        font-family: Segoe UI;
+        font-weight: normal;
+        margin-left: 20px;
+    }
     #p1, #p2{
         display: none;
     }
@@ -748,7 +738,7 @@ table td, th {
   background-color: rgba(56,190,195,0.9); 
     width: 100%;
     position: relative;
-    right: 735px;
+    right: 740px;
     bottom: 913px;
     opacity: 80%;
 }  
@@ -766,9 +756,8 @@ table td, th {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    left: 12px;
     bottom: 1124px;
-    width: 626px;
+    width: 645px;
     height: 1020px;
 
 } 

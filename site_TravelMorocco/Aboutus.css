@@ -57,7 +57,6 @@ display: none;
 }
 @media (max-width: 700px) 
 {
-   
     .navicon{
         top: 30px;
         width: 30px;
@@ -74,11 +73,26 @@ display: none;
         cursor: pointer;
         top: 20px;
     }
-    .header_menu{
-        display: none;
-
+    .navicon::before{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 7px;
+        background-color: #fff;
     }
-     #menu{
+   .header_menu{
+        display: none;
+    }
+   #menu li{
+        display: block;
+        margin-top: 10px;
+        border: 1px solid #0D518C;
+        background-color: #0D518C;
+        margin: 5px;
+        text-align: left;
+        width: 97%;
+    }
+    #menu{
         float: left;
         left: 0;
         
@@ -86,25 +100,12 @@ display: none;
         margin-top: 60px;
         background-color: #357AB4;
         padding: 0px;
-        height: 560px;
-    }
-    #menu li{
-        display: block;
-        border: 1px solid #0D518C;
-        background-color: #0D518C;
-        margin: 5px;
-        width: 97%;
-        height: 60px;
     }
     #menu li a{
-        font-size: 25px;
+        font-size: 20px;
         font-family: Segoe UI;
         font-weight: normal;
     }
-    #menu li:hover {
-        background-color:#7BA0F3;
-    }
-
     #p1, #p2{
         display: none;
     }
@@ -112,9 +113,6 @@ display: none;
         display: block;
 
     }
-    section.section1 {
-    z-index: -1;
-}
 }
 /* secrion1 */
  .paragraphe1 #titre1 {
@@ -475,40 +473,41 @@ table td, th {
     font-size: 16px;
 }
 
+
 #tab1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 192px 0px 0px -784px;
+  margin: 88px 0px 0px -784px;
   font-size: 15px;
 }
 #tab2 {
   display: flex;
   flex-wrap: wrap;
-  margin: 281px 0px 0px -1130px;
+  margin: 178px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab3 {
   display: flex;
   flex-wrap: wrap;
-  margin: 372px 0px 0px -1468px;
+  margin: 268px 0px 0px -1468px;
   font-size: 15px;
 }
 #tab4 {
   display: flex;
   flex-wrap: wrap;
-  margin: 9px 0px 0px -785px;
+  margin: -128px 0px 0px -785px;
   font-size: 15px;
 }
 #tab5 {
   display: flex;
   flex-wrap: wrap;
-  margin: 94px 0px 0px -1130px;
+  margin: -45px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab6 {
   display: flex;
   flex-wrap: wrap;
-  margin: 177px 0px 0px -1467px;
+  margin: 40px 0px 0px -1467px;
   font-size: 15px;
 }
 #cercle1 {
