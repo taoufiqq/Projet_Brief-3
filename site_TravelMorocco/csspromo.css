@@ -33,13 +33,13 @@ position: absolute;
 #p1 {
 position: absolute;
 left: 280px;
-top: 25px;
+top: 20px;
 color: white;
 }
 #p2 {
 position: absolute;
 left: 465px;
-top: 25px;
+top: 20px;
 color: white;
 }
 .imag{
@@ -52,20 +52,19 @@ color: white;
 }
 .header ul {
   float: right;
-  position: absolute;
-  left: 655px;
-  top: 25px;
-
+  margin-right: 22px;
+  margin-top:25px; 
 }
 .header ul li{
   display: inline;
   list-style: none;
-  margin-right: 27px;
+  margin-right: 30px;
 }
 a{
   text-decoration: none;
   color: white;
 }
+
 
 
 .Menu1 { 
@@ -329,57 +328,74 @@ a{
    @media (max-width: 1515px) 
 
 {
-    .navicon{
-        top: 30px;
-        width: 30px;
-        height: 3px;
-        background-color: #fff;
-        display: block;
-        cursor: pointer;
-        margin-top: 7px;
-    }
+  .navicon{
+    top: 30px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    margin-top: 7px;
+}
 
-    .navmenu{
-        right: 20px;
-        position: absolute;
-        cursor: pointer;
-        top: 20px;
-    }
-    .header_menu{
-        display: none;
+.navmenu{
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+}
+.navicon::before{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 7px;
+    background-color: #fff;
+}
+.header_menu{
+    display: none;
+}
+#menu li{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #0D518C;
+    background-color: #0D518C;
+    margin: 5px;
+    text-align: left;
+    width: 97%;
+}
+#menu{
+    float: left;
+    left: 0;
+    
+    width: 100%;
+    margin-top: 60px;
+    background-color: #357AB4;
+    padding: 0px;
+}
+#menu li a{
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: normal;
+}
+#p1, #p2{
+  display: none;
+}
+#checkmenu:checked ~ .header_menu{
+    display: block;
 
-    }
-     #menu{
-        float: left;
-        left: 0;
-        
-        width: 100%;
-        margin-top: 60px;
-        background-color: #357AB4;
-        padding: 0px;
-        height: 70%;
-    }
-    #menu li{
-        display: block;
-        border: 1px solid #0D518C;
-        background-color: #0D518C;
-        margin: 5px;
-        width: 97%;
-        height: 11.3%
-    }
-    #menu li a{
-        font-size: 25px;
-        font-family: Segoe UI;
-        font-weight: normal;
-    }
-    #p1, #p2 {
-        display: none;
-    }
-    #checkmenu:checked ~ .header_menu{
-        display: block;
-    }
-    #menu li:hover {
-        background-color:#7BA0F3;
-    }
-   
+}
+}
+span.S1 {
+  display: flex;
+  margin-left: 46%;
+  margin-top: 1%;
+}
+
+
+@media (max-width: 700px) {
+span.S1 {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 2%;
+}
 }

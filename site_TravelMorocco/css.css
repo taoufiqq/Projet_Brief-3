@@ -27,13 +27,13 @@ body{
 #p1 {
 	position: absolute;
 	left: 280px;
-	top: 25px;
+	top: 7px;
 	color: white;
 }
 #p2 {
 	position: absolute;
 	left: 465px;
-	top: 25px;
+	top: 7px;
 	color: white;
 }
 .imag{
@@ -46,19 +46,20 @@ body{
 }
 .header ul {
     float: right;
-    position: absolute;
-    left: 655px;
-    top: 25px; 
- ;
+    margin-right: 22px;
+    margin-top:25px; 
 }
 .header ul li{
     display: inline;
     list-style: none;
-    margin-right: 27px;
+    margin-right: 30px;
 }
 a{
     text-decoration: none;
     color: white;
+}
+#checkmenu{
+display: none;
 }
                       /* container */
 .grid-container{
@@ -245,13 +246,12 @@ a{
       font-size: 30px;
      }
      
-     .footer .S1{
-      float: left;
-      padding-left: 105px;
-      margin-top: 15px;
-      font-family: Open Sans;
-      font-weight: normal;
-      color: #CCCCCC;}
+     span.S1 {
+        display: flex;
+        margin-left: 46%;
+        margin-top: 1%;
+    }
+  
       .c h2{
         display: flex;
         justify-content: center;
@@ -284,11 +284,26 @@ a{
         cursor: pointer;
         top: 20px;
     }
-    .header_menu{
-        display: none;
-
+    .navicon::before{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 7px;
+        background-color: #fff;
     }
-     #menu{
+   .header_menu{
+        display: none;
+    }
+   #menu li{
+        display: block;
+        margin-top: 10px;
+        border: 1px solid #0D518C;
+        background-color: #0D518C;
+        margin: 5px;
+        text-align: left;
+        width: 97%;
+    }
+    #menu{
         float: left;
         left: 0;
         
@@ -296,38 +311,29 @@ a{
         margin-top: 60px;
         background-color: #357AB4;
         padding: 0px;
-        height: 70%;
-    }
-    #menu li{
-        display: block;
-        border: 1px solid #0D518C;
-        background-color: #0D518C;
-        margin: 5px;
-        width: 97%;
-        height: 11.3%
     }
     #menu li a{
-        font-size: 25px;
+        font-size: 20px;
         font-family: Segoe UI;
         font-weight: normal;
     }
-    #p1, #p2 {
+    #p1, #p2{
         display: none;
     }
     #checkmenu:checked ~ .header_menu{
         display: block;
+
     }
-    #menu li:hover {
-        background-color:#7BA0F3;
-    }
+
+
     .grid-container{
         grid-template-columns: auto auto;
     }
     .page10{
         background-image: url(images/page10.jpg); 
         background-size: cover
-}
     }
+
     .page1{
         background-image: url(images/page1.jpg);
         background-position: center;
@@ -378,3 +384,10 @@ a{
     }
   
 }
+@media (max-width: 700px) {
+    span.S1 {
+      display: flex;
+      margin-left: 30%;
+      margin-top: 2%;
+    }
+  }

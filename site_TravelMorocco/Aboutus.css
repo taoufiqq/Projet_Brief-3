@@ -196,7 +196,7 @@ display: none;
   display: flex; 
   flex-basis: 60%; 
   background-color: rgba(56,190,195,0.9); 
-  width: 1240px;"
+  width: 1240px;
 }
 #t2 {
     font-family: Open sans;
@@ -477,37 +477,37 @@ table td, th {
 #tab1 {
   display: flex;
   flex-wrap: wrap;
-  margin: 88px 0px 0px -784px;
+  margin: 114px 0px 0px -784px;
   font-size: 15px;
 }
 #tab2 {
   display: flex;
   flex-wrap: wrap;
-  margin: 178px 0px 0px -1130px;
+  margin: 202px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab3 {
   display: flex;
   flex-wrap: wrap;
-  margin: 268px 0px 0px -1468px;
+  margin: 293px 0px 0px -1468px;
   font-size: 15px;
 }
 #tab4 {
   display: flex;
   flex-wrap: wrap;
-  margin: -128px 0px 0px -785px;
+  margin: -96px 0px 0px -785px;
   font-size: 15px;
 }
 #tab5 {
   display: flex;
   flex-wrap: wrap;
-  margin: -45px 0px 0px -1130px;
+  margin: -12px 0px 0px -1130px;
   font-size: 15px;
 }
 #tab6 {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px 0px 0px -1467px;
+  margin: 73px 0px 0px -1467px;
   font-size: 15px;
 }
 #cercle1 {
@@ -679,7 +679,7 @@ table td, th {
     font-size: 12px;
     font-weight: lighter;
     width: 380px;
-}
+  }
 } 
 /* footer */
 .section{
@@ -799,19 +799,29 @@ table td, th {
     color: #0099FF;
     font-size: 30px;
    }
-     .footer .S1{
+     /* .footer .S1{
       float: left;
       padding-left: 105px;
       margin-top: 15px;
       font-family: Open Sans;
       font-weight: normal;
       color: #CCCCCC;
-    }
+      margin: auto;
+    } */
+    span.S1 {
+      display: flex;
+      margin-left: 46%;
+      margin-top: 1%;
+  }
 
   @media (max-width: 700px) {
 
       .section {
         margin-top: -190px;
       }
-
+      span.S1 {
+        display: flex;
+        margin-left: 30%;
+        margin-top: 2%;
       }
+    }

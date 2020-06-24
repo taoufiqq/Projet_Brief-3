@@ -352,8 +352,8 @@ display: none;
     margin-left: 65px
    }
    .sec2 {
-    margin-top: 155px;
-    margin-left: -45px;
+    margin-top: 159px;
+    margin-left: -61px;
     width: 112%;
     height: 515px;
    }
@@ -366,7 +366,7 @@ display: none;
    }
    .par3 h1 {
     margin-left: 150px;
-    bottom: 760px;
+    bottom: 747px;
     text-align: center;
     position: relative;
     float: left;
@@ -395,7 +395,7 @@ display: none;
     height: 130px;
     float: left;
     margin-top: 145px;
-    margin-left: -365px;
+    margin-left: -416px;
    }
    .grp3 .grp {
     display: block;
@@ -412,7 +412,7 @@ display: none;
     width: 30%;
     height: 130px;
     float: left;
-    margin-left: -222px;
+    margin-left: -245px;
     margin-top: 380px;
    }
 
@@ -1233,11 +1233,26 @@ table td, th {
     color: #0099FF;
     font-size: 30px;
    }
-     .footer .S1{
+     /* .footer .S1{
       float: left;
       padding-left: 105px;
       margin-top: 15px;
       font-family: Open Sans;
       font-weight: normal;
       color: #CCCCCC;
+      margin: auto;
+    } */
+    span.S1 {
+      display: flex;
+      margin-left: 46%;
+      margin-top: 1%;
+  }
+
+  
+  @media (max-width: 700px) {
+    span.S1 {
+      display: flex;
+      margin-left: 30%;
+      margin-top: 2%;
     }
+  }
