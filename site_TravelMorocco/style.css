@@ -366,14 +366,14 @@ display: none;
    }
    .par3 h1 {
     margin-left: 150px;
-    bottom: 747px;
+    bottom: 732px;
     text-align: center;
     position: relative;
     float: left;
    }
    .par3 p {
       margin-left: 8px;
-      bottom: 275px;
+      bottom: 260px;
       position: relative;
       float: left;
       text-align: center;
@@ -1235,7 +1235,7 @@ table td, th {
    }
      /* .footer .S1{
       float: left;
-      padding-left: 105px;
+      padding-left: 195px;
       margin-top: 15px;
       font-family: Open Sans;
       font-weight: normal;
